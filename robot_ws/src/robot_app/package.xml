@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robot_app</name>
+  <version>1.0.0</version>
+  <description>
+    A custom AWS RoboMaker robot package with a rotating Turtlebot3
+  </description>
+  <license>MIT</license>
+  <author email="buscaron@amazon.com">Cam</author>
+  <maintainer email="buscaron@amazon.com">Cam</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>turtlebot3_msgs</depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>turtlebot3_bringup</exec_depend>
+</package>

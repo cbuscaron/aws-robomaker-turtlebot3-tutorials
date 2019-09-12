@@ -11,7 +11,7 @@ AWS RoboMaker es un servicio que facilita la creación de aplicaciones de robót
 
 # Primera Parte: Desarollar y probar un robot en simulación con AWS RoboMaker
 
-# Segunda Parte: Navegar y xplorar autonomamente en simulación con AWS RoboMaker
+# Segunda Parte: Navegar y explorar autonomamente en simulación con AWS RoboMaker
 
 # Tercera Parte: Desplegar codigo a un robot con AWS RoboMaker administración de robots 
 

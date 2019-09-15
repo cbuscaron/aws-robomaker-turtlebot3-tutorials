@@ -131,6 +131,3 @@ rosrun map_server map_saver -f ~/map
 ```
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml open_rviz:=false
 ```
-
-# Tercera Parte: Desplegar codigo a un robot con AWS RoboMaker administración de robots 
-

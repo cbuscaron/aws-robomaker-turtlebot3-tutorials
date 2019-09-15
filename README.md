@@ -113,5 +113,24 @@ Finalmente lanza la ventana de rqt y controla el robot
 
 # Segunda Parte: Navegar y explorar autonomamente en simulación con AWS RoboMaker
 
+```
+  <depend>turtlebot3_slam</depend>
+  <depend>turtlebot3_navigation</depend>
+  <exec_depend>slam_gmapping</exec_depend>
+```
+
+```
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping open_rviz:=false
+```
+
+```
+rosrun map_server map_saver -f ~/map
+```
+
+```
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml open_rviz:=false
+```
+
 # Tercera Parte: Desplegar codigo a un robot con AWS RoboMaker administración de robots 
 
